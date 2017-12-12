@@ -4,11 +4,18 @@
   "description": "basic bot to consume the GDAX API",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node src/index.js --presets es2015,stage-2",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lds.north@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "gdax": "^0.4.2"
+    "gdax": "github:coinbase/gdax-node"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "effects-as-data": "^2.14.9"
   }
 }
