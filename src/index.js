@@ -1,3 +1,3 @@
-import { getProducts } from './api/public-client'
+import { getLevelOneOrderBookLTC } from './api/order-book'
 
-getProducts()
+getLevelOneOrderBookLTC()

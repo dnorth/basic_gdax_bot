@@ -9,7 +9,7 @@ export async function getProducts() {
         
         console.log(products);
       } catch(error) {
-        console.log(error)
+        console.log("Error:", error)
       }
     
 }
